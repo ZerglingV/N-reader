@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="MIN_FONT_SIZE">18</integer>
+
+    <integer name="AUTOMOBILE">1</integer>
+    <integer name="FASHION">2</integer>
+    <integer name="FIN_ECO">3</integer>
+    <integer name="FOOD">4</integer>
+    <integer name="GAME">5</integer>
+    <integer name="HEALTH">6</integer>
+    <integer name="SPORTS">7</integer>
+    <integer name="TECHNOLOGY">8</integer>
+
+    <string name="SMS_RECEIVED" translatable="false">android.provider.Telephony.SMS_RECEIVED</string>
+    <string name="BOOT_RECEIVED" translatable="false">android.intent.action.BOOT_COMPLETED</string>
+    <string name="APP_DOWNLOAD_ADDRESS" translatable="false">https://github.com/ZerglingV/N-reader/raw/main/N-reader.apk</string>
+    <string name="APP_ABOUT_ADDRESS" translatable="false">https://github.com/ZerglingV/N-reader#readme</string>
+</resources>

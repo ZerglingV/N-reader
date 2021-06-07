@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Newsreader" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_001</item>
+    </style>
+
+    <style name="BlueToolBar">
+        <item name="android:background">@color/purple_001</item>
+    </style>
+
+    <style name="WhiteToolBar">
+        <item name="android:background">@color/light_black_002</item>
+    </style>
+
+    <style name="ItemBackground">
+        <item name="android:background">@drawable/text_round_corner_dark</item>
+    </style>
+
+    <style name="WhiteBackgroundColor">
+        <item name="android:background">@color/light_black_002</item>
+    </style>
+
+    <style name="GreyBackgroundColor">
+        <item name="android:background">@color/light_black_002</item>
+    </style>
+
+    <style name="MainText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/light_grey_004</item>
+    </style>
+
+    <style name="AuxiliaryText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/light_grey_001</item>
+    </style>
+
+    <style name="Menu">
+        <item name="android:background">@color/light_black_002</item>
+        <item name="itemTextColor">@color/light_grey_004</item>
+    </style>
+
+    <style name="SaveButton">
+        <item name="android:background">@drawable/button_round_corner_selector_dark</item>
+        <item name="android:textColor">@color/light_grey_004</item>
+    </style>
+
+    <style name="menu_header">
+        <item name="android:textColor">@color/purple_001</item>
+    </style>
+</resources>
