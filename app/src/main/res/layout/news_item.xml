@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_item"
+    style="@style/ItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginTop="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/news_item_title"
+        style="@style/MainText"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginBottom="5dp"
+        android:singleLine="true"
+        android:text="@string/detail_title"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/news_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/button_news_technology"
+        android:scaleType="centerCrop"
+        android:src="@drawable/news_technology" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/news_item_date"
+            style="@style/AuxiliaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_date"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/news_item_author_image"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_toStartOf="@id/news_item_author_name"
+            android:layout_toLeftOf="@id/news_item_author_name"
+            android:contentDescription="@string/author_image"
+            android:src="@mipmap/ic_logo_round" />
+
+        <TextView
+            android:id="@+id/news_item_author_name"
+            style="@style/MainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_toStartOf="@id/news_item_official_image"
+            android:layout_toLeftOf="@id/news_item_official_image"
+            android:text="@string/author_name"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/news_item_official_image"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/author_image"
+            android:src="@drawable/ic_official" />
+    </RelativeLayout>
+</LinearLayout>
