@@ -2,7 +2,7 @@
 
 Thanks for using N-reader. This is a simple project for Android learning. This app is designed to read some news, but it just provided static data for reading and testing.
 
-![ifconfig.png](ic_logo_round.png)
+![N-reader](app\src\main\res\mipmap-hdpi\ic_logo_round.png)
 
 If you like this App, you can communicate with me and [follow me](https://github.com/ZerglingV/ "Follow ZerglingV").
 
